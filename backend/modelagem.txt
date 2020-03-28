@@ -1,0 +1,28 @@
+Entidades
+    Solicitante
+        Id
+        Nome
+        Email
+        Empresa 
+        Setor
+        DataCadastro
+    Solicitação
+        Id
+        Titulo
+        Descricao
+        Prioridade
+        DataCadastro        
+        DataConclusao
+
+Funcionalidades
+    Solicitante
+        Login
+        Logout
+        Cadastro
+    Solicitação
+        Cadastro
+        Edição
+        Deleção
+    Listar todas as solicitações
+    Listar solicitações de um solicitante
+    Entrar em contato
