@@ -5,9 +5,9 @@ module.exports = {
         const { id } = request.body;
 
         const solicitante = await connection('solicitante')
-        .where('id', id)
-        .select('nome')
-        .first();
+            .where('id', id)
+            .select('nome')
+            .first();
 
         if (!solicitante) {
             return response.status(400).json({
