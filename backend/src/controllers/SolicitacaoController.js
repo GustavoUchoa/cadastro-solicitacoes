@@ -48,7 +48,7 @@ module.exports = {
             .select('solicitante_id')
             .first();
 
-        if (solicitacao.solicitante_id != solicitante_id) {
+        if (solicitacao.solicitante_id !== solicitante_id) {
             return response.status(401).json({
                 error: 'Operação não permitida.'
             });
